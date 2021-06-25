@@ -1,0 +1,7 @@
+﻿CREATE PROCEDURE [dbo].[BFSP_AddCategory]
+	@Name NVARCHAR(75)
+AS
+BEGIN
+	INSERT INTO [Category] ([Name]) VALUES (@Name);
+	RETURN 0
+END

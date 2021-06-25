@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="3.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Tools.Connections.Database" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BxlForm.DemoSecurity.Models.Client\BxlForm.DemoSecurity.Models.Client.csproj" />
+    <ProjectReference Include="..\BxlForm.DemoSecurity.Models.Global\BxlForm.DemoSecurity.Models.Global.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Infrastructure\Attributes\" />
+  </ItemGroup>
+
+</Project>
