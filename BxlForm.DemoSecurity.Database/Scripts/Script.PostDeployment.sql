@@ -9,7 +9,7 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-SET IDENTITY_INSERT [Category] ON;
-INSERT INTO [Category] ([Id], [Name]) VALUES (1, 'Personnel');
-INSERT INTO [Category] ([Id], [Name]) VALUES (2, 'Professionnel');
-SET IDENTITY_INSERT [Category] OFF;
+--SET IDENTITY_INSERT [Category] ON;
+--INSERT INTO [Category] ([Id], [Name]) VALUES (1, 'Personnel');
+--INSERT INTO [Category] ([Id], [Name]) VALUES (2, 'Professionnel');
+--SET IDENTITY_INSERT [Category] OFF;
